@@ -4,6 +4,7 @@ const router = express.Router();
 
 router.post('/', (req, res) => {
   // do your magic!
+  // res.json(message: "")
 });
 
 router.post('/:id/posts', (req, res) => {
